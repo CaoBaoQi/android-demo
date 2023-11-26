@@ -16,8 +16,20 @@
   <a href="https://github.com/CaoBaoQi/android-demo/pulls">Request Feature</a>
 </p>
 
+# About
+
+| 姓名      | 学号             | 专业           | 班级                |
+|---------|----------------|--------------|-------------------|
+| **曹宝琪** | **2309312102** | **计算机科学与技术** | **计算机专升本 2301 班** |
+
 ![](https://jz-cbq-1311841992.cos.ap-beijing.myqcloud.com/images/20231127000940.png)
 
+## Start
+
+1. Get overview at [Document | 文档](http://182.92.71.87:81/)
+2. Clone the repo
+
+## Tools
 
 | Tools  | Version                   |
 |--------|---------------------------|
@@ -25,14 +37,15 @@
 | Gradle | 8.1.2                     |
 | API    | API 30 ("R" Android 11.0) |
 
-1. Get overview at [Document | 文档](http://182.92.71.87:81/)
-2. Clone the repo
-
 ```shell
 git clone https://github.com/CaoBaoQi/android-demo.git
 ```
 
+## LICENSE
+
 Distributed under the  **Apache License 2.0** . See [LICENSE](LICENSE) for more information.
+
+## Email
 
 | 邮箱  | 1203952894@qq.com |
 |-----|-------------------|
