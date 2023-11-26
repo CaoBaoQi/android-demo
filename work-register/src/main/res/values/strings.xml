@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">work-register</string>
+    <string name="usernameMain">请输入用户名</string>
+    <string name="passwordMain">请输入密码</string>
+    <string name="loginMain">登录</string>
+    <string name="registerMain">立即注册</string>
+    <string name="findPasswordMain">忘记密码？</string>
+    <string name="passwordAgainMain">再次输入密码</string>
+    <string name="userMain">请输入用户名</string>
+</resources>
