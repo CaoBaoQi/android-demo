@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/option_style"
+        android:title="字体大小">
+        <menu>
+            <item android:id="@+id/option_10"
+                android:title="10 号"/>
+            <item android:id="@+id/option_20"
+                android:title="20 号"/>
+            <item android:id="@+id/option_30"
+                android:title="30 号"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/option_color"
+        android:title="字体颜色">
+        <menu>
+            <item android:id="@+id/option_red"
+                android:title="红色"/>
+            <item android:id="@+id/option_blue"
+                android:title="蓝色"/>
+            <item android:id="@+id/option_yellow"
+                android:title="黄色"/>
+            <item android:id="@+id/option_gray"
+                android:title="灰色"/>
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/option_normal"
+        android:title="普通菜单">
+
+    </item>
+
+</menu>
