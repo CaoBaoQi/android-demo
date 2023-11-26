@@ -3,6 +3,4 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="primary_color">#F3909E</color>
-    <color name="btn_press">#FF69DB8F</color>
-    <color name="btn_unpress">#FFB5407C</color>
 </resources>
