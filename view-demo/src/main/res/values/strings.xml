@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">view-demo</string>
+    <string name="custom_phone">18888888888</string>
+    <string name="custom_email">1888888888@qq.com</string>
+    <string name="main_edit_text_info">请输入你想输入的内容</string>
+    <string name="button">按钮</string>
+    <string name="pic_01">Pic_01</string>
+</resources>
