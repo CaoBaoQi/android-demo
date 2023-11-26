@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">layout-demo</string>
+    <string name="red">红色</string>
+    <string name="green">绿色</string>
+    <string name="blue">蓝色</string>
+    <string name="mcdd_strange">错愕的抹茶</string>
+    <string name="mcdd_cb">霍霍</string>
+    <string name="mcdd_cbq">画画</string>
+    <string name="mcdd_rose">玫瑰</string>
+    <string name="relative_ask">发现新版本，需要更新吗？</string>
+    <string name="relative_now_update">现在更新</string>
+    <string name="relative_after_update">以后再说</string>
+    <string name="layout_frame">帧布局</string>
+    <string name="layout_liner">线性</string>
+    <string name="layout_table">表格</string>
+    <string name="layout_relative">相对布局</string>
+    <string name="layout_grid">网格布局</string>
+</resources>

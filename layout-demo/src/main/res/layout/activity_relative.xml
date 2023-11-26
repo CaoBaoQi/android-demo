@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".activity.LinerActivity">
+
+    <TextView
+            android:id="@+id/tv_hello_world"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/relative_ask"
+            android:textSize="20sp"
+            android:layout_centerInParent="true" />
+
+<LinearLayout
+        android:layout_marginEnd="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tv_hello_world">
+
+    <Button
+            android:id="@+id/bt_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/relative_now_update" />
+
+    <Button
+            android:id="@+id/bt_no_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/relative_after_update" />
+</LinearLayout>
+
+
+</RelativeLayout>
