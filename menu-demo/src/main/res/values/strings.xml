@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">menu-demo</string>
+    <string name="menu_optional_font_size">字体大小</string>
+    <string name="menu_optional_font_color">字体颜色</string>
+    <string name="menu_optional_normal">普通菜单</string>
+    <string name="size_10">10 号</string>
+    <string name="size_20">20 号</string>
+    <string name="size_30">30 号</string>
+    <string name="color_red">红色</string>
+    <string name="color_blue">蓝色</string>
+    <string name="color_yellow">黄色</string>
+    <string name="color_gray">灰色</string>
+    <string name="menu_context">上下文菜单</string>
+    <string name="menu_optional">选项卡</string>
+    <string name="menu_popup">弹出菜单</string>
+    <string name="popup_add">ADD</string>
+    <string name="popup_delete">DELETE</string>
+    <string name="popup_more">MORE</string>
+    <string name="description">描述</string>
+    <string name="name">名称</string>
+    <string name="context_add">添加</string>
+    <string name="context_delete">删除</string>
+    <string name="context_more">更多</string>
+</resources>

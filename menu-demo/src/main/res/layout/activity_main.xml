@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+    <Button
+            android:id="@+id/main_btn_optional"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/menu_optional"
+            android:background="@color/white"
+            android:textColor="#A52C2C"
+            android:textSize="15sp"/>
+
+    <Button
+            android:id="@+id/main_btn_context"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/menu_context"
+            android:background="@color/white"
+            android:textColor="#9D25B1"
+            android:textSize="15sp"/>
+
+    <Button
+            android:id="@+id/main_btn_popup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/menu_popup"
+            android:background="@color/white"
+            android:textColor="#E3316D"
+            android:textSize="15sp"/>
+
+
+</LinearLayout>

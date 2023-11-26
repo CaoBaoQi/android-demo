@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/option_style"
+            android:title="@string/menu_optional_font_size">
+        <menu>
+            <item android:id="@+id/option_10"
+                  android:title="@string/size_10"/>
+            <item android:id="@+id/option_20"
+                  android:title="@string/size_20"/>
+            <item android:id="@+id/option_30"
+                  android:title="@string/size_30"/>
+        </menu>
+    </item>
+
+    <item
+            android:id="@+id/option_color"
+            android:title="@string/menu_optional_font_color">
+        <menu>
+            <item android:id="@+id/option_red"
+                  android:title="@string/color_red"/>
+            <item android:id="@+id/option_blue"
+                  android:title="@string/color_blue"/>
+            <item android:id="@+id/option_yellow"
+                  android:title="@string/color_yellow"/>
+            <item android:id="@+id/option_gray"
+                  android:title="@string/color_gray"/>
+        </menu>
+
+    </item>
+
+    <item
+            android:id="@+id/option_normal"
+            android:title="@string/menu_optional_normal">
+
+    </item>
+
+</menu>
