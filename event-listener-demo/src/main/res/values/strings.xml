@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">event-listener-demo</string>
+    <string name="v1">(匿名内部类方式)</string>
+    <string name="v2">(内部类方式)</string>
+    <string name="v3">(外部类方式)</string>
+    <string name="v4">(Lambda 方式 | 匿名内部类)</string>
+    <string name="v5">直接绑定到标签</string>
+</resources>
