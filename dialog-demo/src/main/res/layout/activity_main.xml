@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".MainActivity"
+              android:orientation="vertical"
+              android:gravity="center">
+
+    <Button
+            android:id="@+id/btn_common_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/commonDialog"
+            android:background="@color/white"
+            android:textColor="#A52C2C"
+            android:textSize="15sp"/>
+
+    <Button
+            android:id="@+id/btn_single_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/singleDialog"
+            android:background="@color/white"
+            android:textColor="#9D25B1"
+            android:textSize="15sp"/>
+
+    <Button
+            android:id="@+id/btn_multiple_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/multipleDialog"
+            android:background="@color/white"
+            android:textColor="#E3316D"
+            android:textSize="15sp"/>
+
+    <Button
+            android:id="@+id/btn_simple_process_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/simpleProcessDialog"
+            android:background="@color/white"
+            android:textColor="#6CBAF8"
+            android:textSize="15sp"/>
+
+    <Button
+            android:id="@+id/btn_process_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/processDialog"
+            android:background="@color/white"
+            android:textColor="#B69C4D"
+            android:textSize="15sp"/>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">dialog-demo</string>
+    <string name="commonDialog">普通对话框</string>
+    <string name="singleDialog">单选对话框</string>
+    <string name="multipleDialog">多选对话框</string>
+    <string name="simpleProcessDialog">不带进度条的对话框</string>
+    <string name="processDialog">带进度条的对话框</string>
+</resources>
