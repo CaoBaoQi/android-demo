@@ -8,7 +8,7 @@
 
 <p align="center">
   安卓 ~ 🥸🥸🥸 智能终端软件开发技术（大三上 ） 笔记 🧑‍💻  <br />
-  <a href="https://github.com/CaoBaoQi/android-demo/tree/master/"><strong>项目文档</strong></a>
+  <a href="http://182.92.71.87:81/"><strong>项目文档</strong></a>
   <br />
   <br />
   <a href="https://github.com/CaoBaoQi/android-demo/issues">Report Bug</a>
@@ -16,13 +16,16 @@
   <a href="https://github.com/CaoBaoQi/android-demo/pulls">Request Feature</a>
 </p>
 
+![](https://jz-cbq-1311841992.cos.ap-beijing.myqcloud.com/images/20231127000940.png)
+
+
 | Tools  | Version                   |
 |--------|---------------------------|
 | JDK    | 17.0.8                    |
 | Gradle | 8.1.2                     |
 | API    | API 30 ("R" Android 11.0) |
 
-1. Get overview at [Document | 文档](https://github.com/CaoBaoQi/android-demo/tree/master/)
+1. Get overview at [Document | 文档](http://182.92.71.87:81/)
 2. Clone the repo
 
 ```shell
