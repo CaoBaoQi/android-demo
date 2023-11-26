@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".MainActivity"
+              android:orientation="vertical"
+              android:gravity="center">
+    <Button
+            android:id="@+id/main_btn_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/spinner"
+            android:background="@color/white"
+            android:textColor="#A52C2C"
+            android:textSize="15sp"/>
+
+    <Button
+            android:id="@+id/main_btn_listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/listView"
+            android:background="@color/white"
+            android:textColor="#9D25B1"
+            android:textSize="15sp"/>
+
+    <Button
+            android:id="@+id/main_btn_gridview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/gridview"
+            android:background="@color/white"
+            android:textColor="#E3316D"
+            android:textSize="15sp"/>
+
+    <Button
+            android:id="@+id/main_btn_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/recyclerview"
+            android:background="@color/white"
+            android:textColor="#6CBAF8"
+            android:textSize="15sp"/>
+
+</LinearLayout>

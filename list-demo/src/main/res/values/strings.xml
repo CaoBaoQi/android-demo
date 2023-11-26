@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">list-demo</string>
+    <string name="spinner">下拉列表 Spinner</string>
+    <string name="listView">普通列表 ListView</string>
+    <string name="gridview">网格列表 GridView</string>
+    <string name="recyclerview">增强列表 RecyclerView</string>
+    <string name="boy">请选择(boy)</string>
+    <string name="girl">请选择(girl)</string>
+    <string name="description">描述</string>
+    <string name="name">名称</string>
+</resources>

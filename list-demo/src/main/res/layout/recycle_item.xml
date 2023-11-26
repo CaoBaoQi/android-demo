@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+            android:id="@+id/tx_goods_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="云南天然干花束真花勿忘我家居客厅拜访超大花束"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+    <TextView
+            android:id="@+id/tx_order_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tx_goods_title"
+            android:layout_marginLeft="5dp"
+            android:text="订单状态；已结算"/>
+
+    <TextView
+            android:id="@+id/tx_order_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tx_goods_title"
+            android:layout_marginLeft="5dp"
+            android:text="总价：80 元"/>
+
+    <TextView
+            android:id="@+id/tx_order_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tx_order_status"
+            android:layout_marginLeft="8dp"
+            android:text="创建时间："/>
+
+
+
+</RelativeLayout>
