@@ -55,3 +55,85 @@ Android 中控制组件的显示方式有两种：
 - 需要动态变化的属性则交给 java 代码控制
 
 例如：可以在 XML 布局文件中设置文本显示框的高度和宽度以及初始化时显示文字，在代码中根据实际需要动态地改变现实的文字。
+
+# Demo
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+        tools:context=".MainActivity">
+
+    <!--TextView-->
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/custom_phone"
+              android:autoLink="phone"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/custom_email"
+              android:autoLink="email"/>
+
+    <TextView
+            android:id="@+id/main_text_html"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <!--EditView-->
+    <EditText android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:inputType="text"
+              android:hint="@string/main_edit_text_info"
+              android:autofillHints="password"/>
+
+    <!--Button-->
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#c04851"
+            android:text="@string/button"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+
+    <!--ImageView-->
+    <ImageView android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:scaleType="fitCenter"
+               android:src="@drawable/pic_01"
+               android:contentDescription="@string/pic_01"/>
+
+
+</LinearLayout>
+```
+
+```java
+public class MainActivity extends AppCompatActivity {
+
+    @SuppressLint("SetTextI18n")
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        TextView htmlView = findViewById(R.id.main_text_html);
+
+        htmlView.setText(Html.fromHtml("<h1>这是 H1 标签</h1>", Html.FROM_HTML_MODE_LEGACY));
+    }
+}
+```
+
+<img src="https://jz-cbq-1311841992.cos.ap-beijing.myqcloud.com/images/image-20231128195223359.png" alt="image-20231128195223359" style="zoom:80%;" />

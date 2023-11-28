@@ -17,15 +17,9 @@ public class MainActivity extends AppCompatActivity {
         RelativeLayout rlAddress = findViewById(R.id.rl_address);
         RelativeLayout rlLogout = findViewById(R.id.rl_logout);
 
-        rlOrder.setOnClickListener(view -> {
-            dialog("下一步将查询个人订单");
-        });
-        rlAddress.setOnClickListener(view -> {
-            dialog("下一步将编辑个人地址");
-        });
-        rlLogout.setOnClickListener(view -> {
-            dialog("下一步将退出登录");
-        });
+        rlOrder.setOnClickListener(view -> dialog("下一步将查询个人订单"));
+        rlAddress.setOnClickListener(view -> dialog("下一步将编辑个人地址"));
+        rlLogout.setOnClickListener(view -> dialog("下一步将退出登录"));
     }
 
     public void login(View view) {
