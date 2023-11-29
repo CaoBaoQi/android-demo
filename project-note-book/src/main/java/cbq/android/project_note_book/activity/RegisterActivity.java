@@ -12,14 +12,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import androidx.core.view.WindowCompat;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
-
-import cbq.android.project_note_book.databinding.ActivityRegisterBinding;
-
 import cbq.android.project_note_book.R;
 import cbq.android.project_note_book.db.op.AccountDBOperator;
 import cbq.android.project_note_book.entity.Account;

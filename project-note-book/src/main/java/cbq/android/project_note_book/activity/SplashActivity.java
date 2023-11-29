@@ -8,7 +8,6 @@ import android.os.CountDownTimer;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import cbq.android.project_note_book.MainActivity;
 import cbq.android.project_note_book.R;
 
 /**
