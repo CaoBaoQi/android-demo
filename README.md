@@ -8,7 +8,7 @@
 
 <p align="center">
   安卓 ~ 🥸🥸🥸 智能终端软件开发技术（大三上 ） 笔记 🧑‍💻  <br />
-  <a href="http://182.92.71.87:81/"><strong>项目文档</strong></a>
+  <a href="https://cola777jz.gitee.io/android-demo/"><strong>项目文档</strong></a>
   <br />
   <br />
   <a href="https://github.com/CaoBaoQi/android-demo/issues">Report Bug</a>
@@ -29,7 +29,7 @@
 
 ## Start
 
-1. Get overview at [Document | 文档](http://182.92.71.87:81/)
+1. Get overview at [Document | 文档](https://cola777jz.gitee.io/android-demo)
 2. Clone the repo
 
 ## Tools
